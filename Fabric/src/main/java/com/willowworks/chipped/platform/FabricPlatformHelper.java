@@ -1,6 +1,6 @@
-package com.example.examplemod.platform;
+package com.willowworks.chipped.platform;
 
-import com.example.examplemod.platform.services.IPlatformHelper;
+import com.willowworks.chipped.platform.services.IPlatformHelper;
 import net.fabricmc.loader.api.FabricLoader;
 
 public class FabricPlatformHelper implements IPlatformHelper {

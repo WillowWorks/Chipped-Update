@@ -1,13 +1,15 @@
-package com.example.examplemod.platform;
+package com.willowworks.chipped.platform;
 
-import com.example.examplemod.Constants;
-import com.example.examplemod.platform.services.IPlatformHelper;
+import com.willowworks.chipped.Constants;
+import com.willowworks.chipped.platform.services.IPlatformHelper;
+import com.willowworks.chipped.platform.services.IRegistryHelper;
 
 import java.util.ServiceLoader;
 
 public class Services {
 
     public static final IPlatformHelper PLATFORM = load(IPlatformHelper.class);
+    public static final IRegistryHelper REGISTRY = load(IRegistryHelper.class);
 
     public static <T> T load(Class<T> clazz) {
 
